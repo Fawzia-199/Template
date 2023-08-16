@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.hero-sec{
+  
+    background-image: url(images/header-bg.jpg) ;
+    background: center no-repeat cover auto;
+    /* height:  650px; */
+    color: #ffffff;
+    padding: 1px 0;
+    /* height: 500px; */
+  position: relative;
+  height: 100vh;
+ 
+}
+.hero-sec p{
+    margin-top: 1px ;
+    margin-bottom: 0;
+    font-size:60px;
+  padding: 10px;
+}
+ .hero-sec h1{
+    font-size: 130px;
+    margin-top:  100px ;
+    margin-bottom: 0;
+}
+.piece {
+    font-size: 25px;
+    margin: 35px;
+    clear: both;
+   }
+ .piece span{
+     color: #787878;
+    
+ }
+.services{
+    background-color: #f0ecec;
+    padding: 30px;
+    color: #616161 ;
+    line-height: 30px;
+   
+}
+.services > div:not(.clear){
+    float: left;
+    width: 22.5%;
+    margin-left: 2%;
+    padding-top: 25px;
+}
+ .clear{
+    clear: both;
+}
+.charts {
+    background-color: #f0f0f0;
+    padding: 50px;
+    color: #3c3c3c;
+    height: 330px;
+    font-size: 20px
+}
+.charts > div:not(.clear) {
+    float: left;
+    width: 33.333%;
+    padding-top: 25px;
+}
+
+.cool{
+    color: #ffffff;
+    background-image: url(images/portfolio-bg.jpg) ;
+    background: no-repeat cover;
+    /* height: 450px; */
+    font-size: 25px;
+    padding-top:40px;
+}
+.cool div{
+    float: left;
+    width: 33.333%;
+  padding-top: 30px;
+ }
+.brief{
+   background-color: #f0f0f0;
+   padding: 50px;
+  color: #3c3c3c;
+  line-height: 30px;
+}
+.brief>div:not(.clear):hover{
+    background-color: #ffffff;
+}
+.brief>div:not(.clear){
+    float: left;
+   width:25%;
+ margin-top: 50px;
+
+}
+.brief img{
+    border-radius: 55%;
+    padding: 10px;
+}
+.team-job{
+    color: #787878;
+   font-style: italic;
+}
+.brief  a{
+    color: #ff7f50;
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;  
+  }
+
+.contect{
+    background-color: #312f2f;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 5px;
+    line-height: 50px;
+}
+.contect h4{
+    margin-bottom: 0;
+}
+.contect>div:not(.clear) {
+    float: left;
+    width: 33.333%;
+}
+.contect a {
+    color: #ffffff;
+    text-decoration: none;  
+    display: inline-block;
+    padding: 8px;
+}
+.footer{
+    clear: both;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+}
+.creater{
+    color:#787878;
+}
+.footer a{
+    text-decoration: none;  
+    display: inline-block;
+   color:  #ff7f50;
+}
+.footer span{
+    font-weight: bold;
+}
